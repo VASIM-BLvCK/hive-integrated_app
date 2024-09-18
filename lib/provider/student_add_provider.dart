@@ -9,7 +9,7 @@ final List<StudentModel> studentList = [];
 
 class StudentAddProvider extends ChangeNotifier {
 // add student
-  File? photo;
+  // File? photo;
   final namecontroll = TextEditingController();
   final agecontroll = TextEditingController();
   final phonecontroll = TextEditingController();
@@ -26,8 +26,11 @@ class StudentAddProvider extends ChangeNotifier {
   final editformkey = GlobalKey<FormState>();
   File? fileImage;
 
+
   get path => null;
-  Future<void> getPhoto() async {
+  Future<void> 
+  
+  getPhoto() async {
     final photo = await ImagePicker().getImage(source: ImageSource.gallery);
     if (photo == null) {
       return;

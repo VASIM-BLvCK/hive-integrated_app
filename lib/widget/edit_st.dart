@@ -195,7 +195,7 @@ class EditStudent extends StatelessWidget {
       const SnackBar(
         behavior: SnackBarBehavior.floating,
         margin: EdgeInsets.all(30),
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.green,
         content: Text(
           'Saved',
           textAlign: TextAlign.center,

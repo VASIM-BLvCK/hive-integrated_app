@@ -32,9 +32,7 @@ class SearchWidget extends SearchDelegate {
     return ListView.builder(
       itemBuilder: (ctx, index) {
         final data = studentList[index];
-        if (data.name.trim().contains(
-              query.trim(),
-            )) {
+        if (data.name.trim().contains(query.trim())||data.place.trim().contains(query.trim())) {
           return Column(
             children: [
               ListTile(
@@ -72,10 +70,7 @@ class SearchWidget extends SearchDelegate {
       itemBuilder: (ctx, index) {
         final data = studentList[index];
 
-        if (data.name.toLowerCase().contains(
-                  query.toLowerCase().trim(),
-                ) ||
-            data.name.toUpperCase().contains(query.trim())) {
+        if (data.name.toLowerCase().contains(query.toLowerCase().trim())||data.place.toLowerCase().contains(query.toLowerCase().trim())) {
           return Column(
             children: [
               ListTile(
