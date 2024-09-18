@@ -1,7 +1,7 @@
-import 'package:addstudentpro/provider/student_add_provider.dart';
-import 'package:addstudentpro/widget/addst.dart';
-import 'package:addstudentpro/widget/listst.dart';
-import 'package:addstudentpro/widget/search.dart';
+import 'package:addstudentpro/controller/student_add_provider.dart';
+import 'package:addstudentpro/view/widget/addst.dart';
+import 'package:addstudentpro/view/widget/listst.dart';
+import 'package:addstudentpro/view/widget/search.dart';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

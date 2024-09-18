@@ -1,8 +1,8 @@
-import 'package:addstudentpro/provider/student_add_provider.dart';
+import 'package:addstudentpro/controller/student_add_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'dart:io';
-import '../DB/model/model.dart';
+import '../../DB/model/model.dart';
 
 class AddStudentWidget extends StatelessWidget {
   const AddStudentWidget({super.key});

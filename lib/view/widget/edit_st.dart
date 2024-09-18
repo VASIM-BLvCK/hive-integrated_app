@@ -1,8 +1,8 @@
 import 'dart:io';
-import 'package:addstudentpro/provider/student_add_provider.dart';
+import 'package:addstudentpro/controller/student_add_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../DB/model/model.dart';
+import '../../DB/model/model.dart';
 
 class EditStudent extends StatelessWidget {
   final String name;

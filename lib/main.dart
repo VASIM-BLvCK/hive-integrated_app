@@ -1,10 +1,10 @@
 import 'package:addstudentpro/DB/model/model.dart';
-import 'package:addstudentpro/provider/student_add_provider.dart';
+import 'package:addstudentpro/controller/student_add_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:provider/provider.dart';
 
-import 'home.dart';
+import 'view/home.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

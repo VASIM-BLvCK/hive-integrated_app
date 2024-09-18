@@ -1,7 +1,7 @@
 import 'dart:io';
-import 'package:addstudentpro/provider/student_add_provider.dart';
-import 'package:addstudentpro/widget/informationst.dart';
-import 'package:addstudentpro/widget/listst.dart';
+import 'package:addstudentpro/controller/student_add_provider.dart';
+import 'package:addstudentpro/view/widget/informationst.dart';
+import 'package:addstudentpro/view/widget/listst.dart';
 import 'package:flutter/material.dart';
 
 class SearchWidget extends SearchDelegate {
